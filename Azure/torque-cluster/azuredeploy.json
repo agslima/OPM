@@ -134,8 +134,8 @@
     "OSDiskName": "osdisk",
     "publicIPAddressType": "Dynamic",
     "publicIPAddressName": "publicips",
-    "masterVMName": "Cluster-master",
-    "workerVMName": "Cluster-node",
+    "masterVMName": "master",
+    "workerVMName": "worker",
     "nicName": "nic",
     "networkSettings": {
       "virtualNetworkName": "virtualnetwork",
