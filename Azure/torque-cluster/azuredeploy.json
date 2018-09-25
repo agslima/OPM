@@ -152,10 +152,7 @@
         "description": "The VM image of the compute nodes"
       }
     },
-  "publisher": "[variables('imagePublisher')]",
-            "offer": "[variables('imageOffer')]",
-            "sku": "[variables('ubuntuOSVersion')]"
-    "scaleNumber": {
+     "scaleNumber": {
       "type": "int",
       "defaultValue": 2,
       "metadata": {
