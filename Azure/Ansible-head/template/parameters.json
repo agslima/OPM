@@ -1,0 +1,96 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus2"
+        },
+        "networkInterfaceName": {
+            "value": "ansible-head270"
+        },
+        "networkSecurityGroupName": {
+            "value": "Ansible-head-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": [
+                {
+                    "name": "SSH",
+                    "properties": {
+                        "priority": 300,
+                        "protocol": "TCP",
+                        "access": "Allow",
+                        "direction": "Inbound",
+                        "sourceAddressPrefix": "*",
+                        "sourcePortRange": "*",
+                        "destinationAddressPrefix": "*",
+                        "destinationPortRange": "22"
+                    }
+                }
+            ]
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/de480004-2ade-43c6-a6b1-c7b4f584ebd3/resourceGroups/OPM-PROJECT/providers/Microsoft.Network/virtualNetworks/virtualnetwork"
+        },
+        "subnetName": {
+            "value": "dse"
+        },
+        "publicIpAddressName": {
+            "value": "Ansible-head-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "Ansible-head"
+        },
+        "virtualMachineRG": {
+            "value": "OPM-PROJECT"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "dataDisks": {
+            "value": [
+                {
+                    "lun": 0,
+                    "createOption": "attach",
+                    "caching": "None",
+                    "writeAcceleratorEnabled": false,
+                    "id": null,
+                    "name": "Ansible-head_DataDisk_0",
+                    "storageAccountType": null
+                }
+            ]
+        },
+        "dataDiskResources": {
+            "value": [
+                {
+                    "name": "Ansible-head_DataDisk_0",
+                    "diskSizeGB": 10,
+                    "sku": "Standard_LRS",
+                    "creationData": {
+                        "createOption": "empty"
+                    }
+                }
+            ]
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1ms"
+        },
+        "adminUsername": {
+            "value": "agnaldolima"
+        },
+        "adminPublicKey": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "opmstoragecluster"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/de480004-2ade-43c6-a6b1-c7b4f584ebd3/resourceGroups/OPM-PROJECT/providers/Microsoft.Storage/storageAccounts/opmstoragecluster"
+        }
+    }
+}
