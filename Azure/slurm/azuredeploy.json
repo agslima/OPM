@@ -16,7 +16,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_A1_v2",
+      "defaultValue": "Standard_D1_v2",
       "allowedValues": [
                 "Standard_A3",
                 "Standard_A4",
@@ -121,7 +121,7 @@
       "metadata": {
         "description": "The base URI where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/slurm"
+      "defaultValue": "https://raw.githubusercontent.com/agnaldo-asl/OPM/master/Azure/slurm"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",

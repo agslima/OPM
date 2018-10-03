@@ -63,13 +63,6 @@ done
 # Install SLURM on master node
 ###################################
 
-# Install Ansible
-sudo apt-get install -y ansible
-
-# Install MPI
-sudo apt-get install -y openmpi-bin
-
-
 # Install the package
 sudo apt-get update >> /tmp/azuredeploy.log.$$ 2>&1
 sudo chmod g-w /var/log >> /tmp/azuredeploy.log.$$ 2>&1 # Must do this before munge will generate key
