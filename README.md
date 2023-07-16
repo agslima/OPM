@@ -6,7 +6,6 @@ O software é capaz de produzir simulações através de um modelo e o uso de di
 
 Modelação do uso das bibliotecas usadas. A ligação dessas bibliotecas é bastante importante para a compilação do software que pode ser bastante desafiadora e complexa.
 
-(https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg)
 [![Build Status](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg)]
 
 O principal objetivo do meu artigo é estabelecer uma métrica de desempenho de simulações na Nuvem Azure usando desde máquinas de processadores simples a máquinas com vários núcleos ou Cluster de máquinas. Usando essas métricas, pude chegar ao consumo de energia e estabelecer a relação custo benefício, de tempo e o consumo energético. Obtive resultados bastante interessantes, como o caso onde o tempo de simulação tende a aumentar quando mais máquinas disponíveis ou quando o tempo é drasticamente reduzido quando é utilizado apenas uma máquina, mas com diversos núcleos de processamento. 
