@@ -1,4 +1,4 @@
-# Sobre a pesquisa
+# Projeto de pesquisa
 Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. O foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
 
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
