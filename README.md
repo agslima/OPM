@@ -1,17 +1,15 @@
 # Projeto de pesquisa
-Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. 
+Pesquisa com o objetivo de estudar o Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA) e aplicações na Cloud Azure.
 
-Como o objetivo inicial desse projeto era o estudo, compilação e acelaração com GPU do simulador OPM.
-
-Originado do projeto, o foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
+Como resultado de pesquisa, foi possível criar um artigo para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. O foco principal do artigo foi o estudo do desempenho do simulador na Cloud levando em conta métricas como consumo energético, tempo e custo benefício.
 
 ## Sobre
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
-O OPM é um software de Simulação Open Source cujo principal objetivo é modelagem e simulação que pode ser aplicada a estudos de aquíferos, exploração de campos de petróleo e estocagem de CO2.
+O OPM é um software de Simulação Open Source de modelagem e simulação aplicado a estudos de aquíferos, exploração de campos de petróleo e estocagem de CO2.
 
-O software é capaz de produzir simulações através de modelos e  usando diversas bibliotecas científicas, como exemplo, BLAS e LAPACK.
+O software é capaz de produzir simulações através de modelos e usando diversas bibliotecas científicas, como exemplo, BLAS e LAPACK.
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/grafo_libs.jpg?raw=true)
-A diagrama acima mostra a modelação das bibliotecas. A ligação delas é bastante importante para a compilação do software, algo que pode ser bastante desafiador e complexo.
+O diagrama acima mostra as ligações das bibliotecas no software. Cada uma delas é bastante importante para a compilação do software, algo que pode ser bastante desafiador e complexo.
 
 
 ### Artigos
