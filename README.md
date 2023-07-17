@@ -1,15 +1,16 @@
 # Projeto de pesquisa
 Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. O foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
 
+## Sobre
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
+O objetivo inicial desse projeto era o estudo, compilação e acelaração com GPU do simulador OPM.
 
-<img align="center" src="https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true" height="200" />
-O OPM é um software de Simulação Open Source cujo principal objetivo é modelagem e simulação que pode ser aplicada a estudos e exploração de campos de petróleo, estocagem de C02 e aquíferos.
+O OPM é um software de Simulação Open Source cujo principal objetivo é modelagem e simulação que pode ser aplicada a estudos de aquíferos, exploração de campos de petróleo e estocagem de CO2.
 
-O software é capaz de produzir simulações através de um modelo e o uso de diversas bibliotecas científicas, por exemplo, BLAS e LAPACK.
+O software é capaz de produzir simulações através de modelos e  usando diversas bibliotecas científicas, como exemplo, BLAS e LAPACK.
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/grafo_libs.jpg?raw=true)
+A diagrama acima mostra a modelação das bibliotecas. A ligação delas é bastante importante para a compilação do software, algo que pode ser bastante desafiador e complexo.
 
-Modelação do uso das bibliotecas usadas. A ligação dessas bibliotecas é bastante importante para a compilação do software que pode ser bastante desafiadora e complexa.
 
-
+### Artigos
 O principal objetivo do meu artigo é estabelecer uma métrica de desempenho de simulações na Nuvem Azure usando desde máquinas de processadores simples a máquinas com vários núcleos ou Cluster de máquinas. Usando essas métricas, pude chegar ao consumo de energia e estabelecer a relação custo benefício, de tempo e o consumo energético. Obtive resultados bastante interessantes, como o caso onde o tempo de simulação tende a aumentar quando mais máquinas disponíveis ou quando o tempo é drasticamente reduzido quando é utilizado apenas uma máquina, mas com diversos núcleos de processamento. 
