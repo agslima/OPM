@@ -1,10 +1,12 @@
 # Projeto de pesquisa
-Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. O foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
+Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. 
+
+Como o objetivo inicial desse projeto era o estudo, compilação e acelaração com GPU do simulador OPM.
+
+Originado do projeto, o foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
 
 ## Sobre
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
-O objetivo inicial desse projeto era o estudo, compilação e acelaração com GPU do simulador OPM.
-
 O OPM é um software de Simulação Open Source cujo principal objetivo é modelagem e simulação que pode ser aplicada a estudos de aquíferos, exploração de campos de petróleo e estocagem de CO2.
 
 O software é capaz de produzir simulações através de modelos e  usando diversas bibliotecas científicas, como exemplo, BLAS e LAPACK.
