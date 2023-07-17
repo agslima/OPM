@@ -1,13 +1,16 @@
 # Sobre a pesquisa
 Artigo criado por mim para disciplina de MC038 - Introdução à Redação Científica no Instituto de Computação da Unicamp. O foco do artigo é o estudo do Simulador de Reservatório OPM, suas bibliotecas científicas, compilação voltada para aceleração usando GPUs (CUDA), aplicações na Cloud Azure e, finalmente, estudo do desempenho na Cloud levando em conta o consumo energético.
 
-![image]https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
+![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true)
+
+<img align="center" src="https://github.com/lima-agnaldo/OPM/blob/master/.files/Grid.jpg?raw=true" height="200" />
+
 
 O OPM é um software de Simulação Open Source cujo principal objetivo é modelagem e simulação que pode ser aplicada a estudos e exploração de campos de petróleo, estocagem de C02 e aquíferos.
 
 O software é capaz de produzir simulações através de um modelo e o uso de diversas bibliotecas científicas, por exemplo, BLAS e LAPACK.
 ![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/grafo_libs.jpg?raw=true)
-![image](https://github.com/lima-agnaldo/OPM/blob/master/.files/simul_diag.png?raw=true)
+
 Modelação do uso das bibliotecas usadas. A ligação dessas bibliotecas é bastante importante para a compilação do software que pode ser bastante desafiadora e complexa.
 
 
