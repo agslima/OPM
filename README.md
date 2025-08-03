@@ -76,7 +76,7 @@ O foco principal do artigo foi **avaliar o desempenho do simulador na Cloud Azur
 ### 📄 Artigo
 
 O artigo completo está disponível no repositório e contém análises detalhadas, gráficos e metodologia experimental.  
-> *(Adicione o link ou nome do arquivo PDF aqui, se aplicável)*
+> *(https://github.com/agslima/OPM/blob/master/A_Benefit_Study_of_Implementing_a_Reservoir_Simulator_in_Cloud_Computing.pdf)*
 
 ---
 
@@ -92,9 +92,9 @@ O artigo completo está disponível no repositório e contém análises detalhad
 
 ### 👨‍💻 Autor
 
-**Agnaldo Lima**  
+**Agnaldo Silva Lima**  
 Estudante de Ciência da Computação – Unicamp  
-[LinkedIn](https://www.linkedin.com/in/agnaldo-silva-lima)
+[LinkedIn](https://www.linkedin.com/in/agslima)
 
 ---
 
