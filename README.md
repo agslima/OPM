@@ -76,7 +76,7 @@ O foco principal do artigo foi **avaliar o desempenho do simulador na Cloud Azur
 ### 📄 Artigo
 
 O artigo completo está disponível no repositório e contém análises detalhadas, gráficos e metodologia experimental.  
-> *[Artigo](https://github.com/agslima/OPM/blob/master/A_Benefit_Study_of_Implementing_a_Reservoir_Simulator_in_Cloud_Computing.pdf)*
+> *[Artigo](https://github.com/agslima/OPM/blob/master/Article_A_Benefit_Study_of_Implementing_a_Reservoir_Simulator_in_Cloud_Computing.pdf)*
 
 ---
 
